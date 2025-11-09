@@ -1,0 +1,72 @@
+* {
+  font-family: "CodeNewRoman Nerd Font Propo";
+  background: transparent;
+  color: #D3D3D3; /* jasny szary tekst */
+}
+
+/* --- WINDOW --- */
+#window {
+  color: #D3D3D3;
+  border-color: #3A3A3A;       /* wyraźniejsza ciemna ramka */
+  border-style: solid;
+  border-width: 2px;            /* grubsza obramówka */
+  background-color: rgba(24, 23, 22, 0.8); /* transparentne tło ~80% */
+  border-radius: 10px;
+}
+
+/* --- SCROLL --- */
+#scroll {
+  border: none;
+}
+
+/* --- INNER BOX --- */
+#inner-box {
+  padding-top: 10px;
+}
+
+/* --- ENTRY --- */
+#entry {
+  border: none;
+  color: #D3D3D3;
+  background: transparent;
+  padding: 6px;
+  margin-bottom: 8px;
+  margin-left: 12px;
+  margin-right: 12px;
+  border-radius: 12px;
+}
+
+/* --- WYBRANY WPIS --- */
+#entry:selected {
+  background: rgba(42, 41, 39, 0.8); /* delikatne jaśniejsze transparentne tło */
+  color: #E0E0E0;
+  font-weight: bold;
+  outline: none;
+  border: none;
+}
+
+/* --- INPUT --- */
+#input {
+  background-color: rgba(24, 23, 22, 0.8);
+  color: #D3D3D3;
+  border: none;
+  border-bottom: 2px solid #3A3A3A; /* wyraźniejsza dolna linia */
+  border-radius: 8px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  padding: 12px;
+  margin: 8px;
+}
+
+#input:focus {
+  background: rgba(31, 30, 29, 0.8); /* lekkie rozjaśnienie przy focus */
+  color: #E0E0E0;
+  font-style: italic;
+}
+
+/* --- IMG --- */
+#img {
+  padding: 4px;
+  margin-right: 6px;
+}
+
